@@ -1,1 +1,1 @@
-
+= require('prompt-sync')();
