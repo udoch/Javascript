@@ -1,14 +1,27 @@
 
-function bmiCalculator(weight, height) {
-    var bmi = weight / (height * height);
-    if (bmi < 18.5) {
-        return ("Your BMI is " + bmi + ", so you are underweight");
-    }
-    else if (18.5 < bmi < 24.9) {
-        return ("Your BMI is " + bmi + " ,so you have a normal weight")
-    }
-    else if (bmi > 24.9){
-        return ("Your BMI is " + bmi + " ,so you are overweight")
-    }
+var numrange = []
+for (var i = 0; i < 5; i = i + 1)
+numrange.push(i)
+console.log(numrange)
+
+
+
+
+
+var evenNum = []
+for (var i = 0; i < 21; i = i + 2){
+    evenNum.push(i)
 }
-console.log(bmicalculator(90,2))
+console.log(evenNum)
+
+
+
+const person = {
+    names: "ud",
+    age: 30,
+    nationality: "Lome"
+}
+
+for (var key in person) {
+    console.log(key, person[key])
+}
